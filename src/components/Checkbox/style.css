@@ -1,0 +1,44 @@
+.checkbox-container{
+  position: relative;
+  text-align: center; 
+  color: #000000;
+  justify-content: space-evenly;
+}
+
+.checkbox-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.checkbox-container h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  flex-basis: 100%;
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 2px;
+  margin-top: 25px;
+}
+
+.checkbox-container label input[type="checkbox"] {
+  margin-right: 5px;
+  transform: scale(1.5);
+  width: 10%;
+  height: 10%;
+}
+
+/* Estilos para el checkbox seleccionado */
+.checkbox-container input[type="checkbox"]:checked + label {
+  font-weight: bold;
+}
+
+/* Estilo al pasar el ratón sobre el label (opcional) */
+.checkbox-container input:hover {
+  cursor: pointer;
+}

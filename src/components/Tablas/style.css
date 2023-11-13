@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  border-collapse: collapse;
+  position: relative;
+  top: 0%;
+/* Establece un ancho fijo para las columnas */
+  table-layout: fixed; 
+}
+
+th, td {
+  border: 1px solid #f1a9dbea;
+  padding: 8px;
+  text-align: left;
+/* Divide equitativamente en 3 columnas */
+  width: 33.33%; 
+}
+
+th {
+  background-color: #f3caf18a;
+}
+
+/* Estilos responsive */
+@media screen and (max-width: 600px) {
+  table {
+    overflow-x: auto;
+  }
+
+  th, td {
+    white-space: nowrap;
+  }
+}

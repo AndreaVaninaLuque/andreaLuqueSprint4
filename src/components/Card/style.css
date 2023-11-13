@@ -1,0 +1,91 @@
+/* Estilos de la tarjeta */
+.card-container {
+  width: 20rem;
+  height: 29rem;
+  padding: 2rem;
+  margin: 4rem;
+  border-radius: 10px;
+  background-color: #ffffffc3;
+  text-align: center;
+  border: 1px solid #ed70ce;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+section {
+    display: inline;
+    flex-wrap: wrap;
+}
+
+/* Estilos de los títulos */
+h4 {
+/* Ajusta la posición vertical */
+  position: relative;
+  top: -50px;
+  align-items: center;
+}
+
+h6 {
+/* Ajusta la posición vertical y el margen izquierdo */
+  position: relative;
+  top: -18px;
+  margin-left: 60px;
+}
+
+/* Estilos del párrafo principal */
+p {
+/* Ajusta la posición vertical */
+  position: relative;
+  top: -80px;
+}
+
+/* Estilos del precio */
+.price {
+/* Ajusta la posición vertical y el margen izquierdo */
+  position: relative;
+  bottom: 80px;
+  left: -10px;
+}
+
+/* Estilos del botón */
+.btn-card {
+  display: block;
+  width: 50%;
+  padding: 8px;
+  background-color: #e485c7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+/* Ajusta la posición vertical */
+  position: relative;
+  bottom: 80px;
+}
+
+/* Estilos cuando se hace hover en los botones */
+.btn-card:hover {
+  background-color: #ea82d7;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 4);
+}
+
+/* Estilos de la imagen */
+.img-card {
+/* Asegura que la imagen sea un elemento de bloque */
+  display: block; 
+/* Centra la imagen horizontalmente */
+  margin: 0 auto; 
+/* Asegura que la imagen no se desborde de la tarjeta */
+  width: 16rem; 
+/* Agrega esquinas redondeadas a la imagen */
+  height: 10rem;
+  border-radius: 10px; 
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+/* Ajusta la posición vertical */
+  position: relative;
+  top: -10px;
+}
+
+.img-card:hover {
+  transform: scale(1.2);
+}

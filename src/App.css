@@ -1,0 +1,20 @@
+.contenedorLayout {
+    /* flex-direction: column; */
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+    height: 80vh;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body{
+    background-image: url(/src/assets/background-img.png);
+    background-attachment: fixed;
+    background-size: cover;
+  }

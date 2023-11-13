@@ -1,0 +1,43 @@
+/* Estilos del contenedor del footer */
+footer {
+    background-color: #eca0e8c3;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-between;
+    color: #000000;
+    text-align: right;
+    padding: 1em;
+    padding-bottom: 4%;
+    position: relative;
+    bottom: -100px;
+}
+
+/* Estilos del párrafo en el footer */
+.right {
+    /* Ajusta la alineación del texto a la derecha */
+    justify-content: right;
+    margin-bottom: 1%;
+    display: flex;
+    position: relative;
+    bottom: -50px;
+}
+
+/* Estilos de la lista de navegación en el footer */
+footer nav ul {
+    /* Ajusta la alineación del texto a la izquierda */
+    justify-content: left;
+}
+
+/* Estilos para el ícono de WhatsApp */
+.fa-square-whatsapp {
+    color: #4c8719;
+}
+
+/* Estilos para el ícono de Facebook */
+.fa-square-facebook {
+    color: #0c43a1;
+}
+
+/* Estilos para el ícono de Instagram */
+.fa-instagram {
+    color: #9c1732;
+}
