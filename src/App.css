@@ -15,7 +15,7 @@ h1 {
 
 
 body{
-    background-image: url(/src/assets/background-img.png);
+    background-image: url(/src/assets/background_image.png);
     background-attachment: fixed;
     background-size: cover;
   }
