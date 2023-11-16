@@ -26,7 +26,7 @@ function Checkbox(props) {
       <div className='checkbox-container' data-testid="checkbox-container">
         <h2>Selecciona las categorías:</h2>
         {Array.from(uniqueCategories).map((category) => (
-          <div key={category}>
+          <div className='check' key={category}>
             <label>
               {category}
             </label>

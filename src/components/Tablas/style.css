@@ -1,4 +1,5 @@
 table {
+  background-color: #f3caf1;
   width: 100%;
   height: auto;
   align-items: center;
@@ -7,18 +8,20 @@ table {
   top: 0%;
 /* Establece un ancho fijo para las columnas */
   table-layout: fixed; 
+  text-shadow: 2px 2px 4px rgb(198, 110, 181);
 }
 
 th, td {
-  border: 1px solid #f1a9dbea;
+  border: 1px solid #ef6fc9;
   padding: 8px;
   text-align: left;
 /* Divide equitativamente en 3 columnas */
   width: 33.33%; 
+  font-size: larger;
 }
 
 th {
-  background-color: #f3caf18a;
+  background-color: #ef6fc990;
 }
 
 /* Estilos responsive */

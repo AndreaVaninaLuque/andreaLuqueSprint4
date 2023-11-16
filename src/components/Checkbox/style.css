@@ -42,3 +42,8 @@
 .checkbox-container input:hover {
   cursor: pointer;
 }
+
+.check input{
+  width: 10vh;
+  height: 3vh;
+}
