@@ -15,7 +15,8 @@
     flex-direction: column;
     justify-content: center;
 /* Añade un poco de espacio al texto */
-    padding: 10px; 
+    padding: 10px;
+     text-shadow: 2px 2px 4px rgb(198, 110, 181);
   }
 
 /* Estilos del párrafo en la información de la tarjeta */

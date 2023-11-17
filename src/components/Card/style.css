@@ -1,9 +1,11 @@
 /* Estilos de la tarjeta */
 .card-container {
-  width: 20rem;
+  width: 18rem;
   height: 29rem;
   padding: 2rem;
-  margin: 4rem;
+  margin: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
   border-radius: 10px;
   background-color: #ffffffc3;
   text-align: center;
@@ -11,6 +13,7 @@
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  /* text-shadow: 2px 2px 4px rgb(0, 0, 0); */
 }
 
 section {
@@ -24,13 +27,16 @@ h4 {
   position: relative;
   top: -50px;
   align-items: center;
+  text-align: center;
+  font-weight: 600;
+  /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
 }
 
 h6 {
 /* Ajusta la posición vertical y el margen izquierdo */
   position: relative;
-  top: -18px;
-  margin-left: 60px;
+  top: -16px;
+  /* margin-left: 60px; */
 }
 
 /* Estilos del párrafo principal */
@@ -38,6 +44,7 @@ p {
 /* Ajusta la posición vertical */
   position: relative;
   top: -80px;
+  text-align: center;
 }
 
 /* Estilos del precio */
@@ -52,7 +59,7 @@ p {
 .btn-card {
   display: block;
   width: 50%;
-  padding: 8px;
+  padding: 9px;
   background-color: #e485c7;
   color: #fff;
   border: none;
@@ -60,7 +67,7 @@ p {
   cursor: pointer;
 /* Ajusta la posición vertical */
   position: relative;
-  bottom: 80px;
+  bottom: 16%;
 }
 
 /* Estilos cuando se hace hover en los botones */
@@ -71,21 +78,36 @@ p {
 
 /* Estilos de la imagen */
 .img-card {
+/*Pone las fotos en un marco*/
+  padding: 20px;
 /* Asegura que la imagen sea un elemento de bloque */
   display: block; 
 /* Centra la imagen horizontalmente */
   margin: 0 auto; 
 /* Asegura que la imagen no se desborde de la tarjeta */
   width: 16rem; 
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-top: -28px;
 /* Agrega esquinas redondeadas a la imagen */
   height: 10rem;
   border-radius: 10px; 
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 /* Ajusta la posición vertical */
-  position: relative;
-  top: -10px;
+  /* position: relative;
+  top: -10px; */
 }
 
 .img-card:hover {
   transform: scale(1.2);
+}
+
+/* Para acomodar las cards */
+.cards{
+  flex-basis: 100%;
+  margin-top: 4rem;
+  display: flex;
+  flex-flow: wrap;
+  align-content: space-around;
+  gap: 1rem;
 }
