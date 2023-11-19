@@ -45,6 +45,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-shadow: 2px 2px 4px rgb(198, 110, 181);
 }
 
 /* Estilos cuando se hace hover en los botones */
